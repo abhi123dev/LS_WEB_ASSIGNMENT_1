@@ -2,15 +2,13 @@
 
 document.getElementById('quiz-form').addEventListener('submit', function(event) {
     event.preventDefault();
-
-    // Example: Check answers and display results
+    
     const answers = {
         q1: 'B', 
         q2: 'C',
         q3: 'A',
         q4: 'A',
-        q5: 'D'// Correct answer for question 1
-        // Add more answers similarly
+        q5: 'D'
     };
 
     let score = 0;
