@@ -1,0 +1,75 @@
+/* css for quiz page */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #96C9F4;
+    padding: 0;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-image:url("https://img.freepik.com/free-vector/quiz-background-with-items-flat-design_23-2147599082.jpg?t=st=1720287044~exp=1720290644~hmac=9f1140a7bb5095373744227ea5cc41c863cd05e1c1b78af673dc6986675c63c8&w=740");
+    background-size: contain;
+    background-repeat: repeat-y;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+form {
+    margin-bottom: 20px;
+    /* background-color: #ffffffc4; */
+}
+
+.question {
+    margin-bottom: 15px;
+    background-color: #ffffff63;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#quiz-results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.home {
+    list-style: none;
+}
+.home li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid white;
+    background-color: black;
+    margin: 20px auto;
+}

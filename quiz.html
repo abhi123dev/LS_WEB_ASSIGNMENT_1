@@ -1,0 +1,105 @@
+<!-- html code for quiz page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hill Climb Racing Quiz</title>
+<link rel="stylesheet" href="stylesQ.css">
+</head>
+<body>
+<div class="quiz-container">
+    <h1>Hill Climb Racing Quiz</h1>
+    <form id="quiz-form">
+        <div class="question">
+            <h2>1. What is the primary objective in Hill Climb Racing?</h2>
+            <label>
+                <input type="radio" name="q1" value="B"> Collect coins and drive as far as possible
+            </label>
+            <label>
+                <input type="radio" name="q1" value="A"> Defeat other players in races
+            </label>
+            <label>
+                <input type="radio" name="q1" value="C"> Perform the most stunts within a time limit
+            </label>
+            <label>
+                <input type="radio" name="q1" value="D"> Upgrade vehicles to the maximum level
+            </label>
+        </div>
+        
+        <div class="question">
+            <h2>2. Which vehicle type is not available in Hill Climb Racing?</h2>
+            <label>
+                <input type="radio" name="q2" value="A"> Car
+            </label>
+            <label>
+                <input type="radio" name="q2" value="B"> Monster Truck
+            </label>
+            <label>
+                <input type="radio" name="q2" value="C"> Spaceship
+            </label>
+            <label>
+                <input type="radio" name="q2" value="D"> Helicopter
+            </label>
+        </div>
+        
+        <div class="question">
+            <h2>3. Who is the main character you control in Hill Climb Racing?</h2>
+            <label>
+                <input type="radio" name="q3" value="A"> Newton Bill
+            </label>
+            <label>
+                <input type="radio" name="q3" value="B"> Jake Smith
+            </label>
+            <label>
+                <input type="radio" name="q3" value="C"> Max Power
+            </label>
+            <label>
+                <input type="radio" name="q3" value="D"> Frank Johnson
+            </label>
+        </div>
+        
+        <div class="question">
+            <h2>4. What can you upgrade in Hill Climb Racing to improve vehicle performance?</h2>
+            <label>
+                <input type="radio" name="q4" value="A"> Engine, tires, and suspension
+            </label>
+            <label>
+                <input type="radio" name="q4" value="B"> Paint color and stickers
+            </label>
+            <label>
+                <input type="radio" name="q4" value="C"> Driver's outfit and helmet
+            </label>
+            <label>
+                <input type="radio" name="q4" value="D"> Horn sound and dashboard lights
+            </label>
+        </div>
+        
+        <div class="question">
+            <h2>5. Which terrain is not commonly featured in Hill Climb Racing?</h2>
+            <label>
+                <input type="radio" name="q5" value="A"> Countryside
+            </label>
+            <label>
+                <input type="radio" name="q5" value="B"> Arctic
+            </label>
+            <label>
+                <input type="radio" name="q5" value="C"> Desert
+            </label>
+            <label>
+                <input type="radio" name="q5" value="D"> Underwater
+            </label>
+        </div>
+        
+        <button type="submit">Submit Quiz</button>
+    </form>
+    <div id="quiz-results"></div>
+    <div class="home">
+        <li><a href="index.html">RETURN TO HOME</a></li>
+    </div>
+</div>
+
+<script src="scriptQ.js"></script>
+</body>
+</html>
